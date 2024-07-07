@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #02646d;
+  --secondary-color: #e5f5ea;
+  --body-text-color: #596392;
+  --navbar-footer-color: #f9f9f9;
+  --text-style: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: var(--body-text-color);
+  display: contents;
+}
+html::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
+.site-logo {
+  padding: 5px 20px;
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.shadow-effect {
+  border: none;
+  box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+.bg-theme {
+  background-color: var(--primary-color);
+}
+.bg-secondary-theme {
+  background-color: var(--secondary-color);
+}
+.text-theme-primary {
+  color: var(--primary-color);
+}
+.btn-theme {
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}

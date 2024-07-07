@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.contact-page {
+  font-family: "Roboto", sans-serif;
+  color: #02646d;
+
+  .contact-container {
+    background-color: #02646d;
+    color: white;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    .contact-form {
+      width: 300px;
+    }
+    .horztl {
+      border: 1px solid white;
+      width: 640px;
+      overflow: overlay;
+      position: absolute;
+      left: 640px;
+    }
+    .homepageBtn {
+      background-color: #f7f7f7;
+      padding: 8px 16px;
+      border-radius: 3px;
+      margin-left: 142px;
+    }
+    .messageBtn {
+      color: #02646d;
+      background-color: white;
+      padding: 8px 40px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      cursor: pointer;
+      &:hover {
+        background-color: #f7f7f7;
+      }
+    }
+    .cancelBtn {
+      color: #02646d;
+      background-color: white;
+      padding: 8px 40px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      cursor: pointer;
+      &:hover {
+        background-color: #f7f7f7;
+      }
+    }
+  }
+}
